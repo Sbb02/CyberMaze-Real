@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
-    public GameObject book;
+    public GameObject book, door;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +14,15 @@ public class DoorController : MonoBehaviour
         
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        // Rotate the door
+        //door.Rotate(90f, 90f, 0f);
+        door.SetActive(false);
+        book.SetActive(false);
+    }
+
+    /*
     // Update is called once per frame
     void Update()
     {
@@ -29,4 +38,5 @@ public class DoorController : MonoBehaviour
             }
         }
     }
+    */
 }
