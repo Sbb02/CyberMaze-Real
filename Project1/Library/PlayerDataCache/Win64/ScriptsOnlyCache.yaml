@@ -2,11 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - DoorController
+    - Level1End
     - SC_FPSController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -14,7 +13,52 @@ ScriptsOnlyBuild:
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Level1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1928}
+    - Class: 114
+      Script: {instanceID: 2028}
+    - Class: 114
+      Script: {instanceID: 24580}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/Level2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -120,7 +164,7 @@ ScriptsOnlyBuild:
     className: SC_FPSController
   - hash:
       serializedVersion: 2
-      Hash: 2b2fe1e457cec90c81e6016bbc932e6f
+      Hash: 50d9b341d8c10971454e69066ce8bc11
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DoorController
@@ -844,7 +888,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b7512264d05400c061c5f81d8ffddd41
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Level1End
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Level1.unity
+  - Assets/Scenes/Level2.unity
   playerPath: E:/CyberMaze/Unity/Projects/Project1/Project1.exe

@@ -302,6 +302,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Scenes/DoorController.cs"
+"Assets/Scenes/Level1End.cs"
 "Assets/SC_FPSController.cs"
 -langversion:9.0
 
